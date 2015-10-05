@@ -89,12 +89,15 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
             Snackbar.make(findViewById(android.R.id.content), "Gallerie", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
+
         } else if (id == R.id.nav_slideshow) {
             Snackbar.make(findViewById(android.R.id.content), "Slideshow", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
+
         } else if (id == R.id.nav_manage) {
             Snackbar.make(findViewById(android.R.id.content), "Tools", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
+
         } else if (id == R.id.nav_share) {
             Snackbar.make(findViewById(android.R.id.content), "Share", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
